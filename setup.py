@@ -5,11 +5,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 PKG_NAME = "oneNeuron_pkg"
 USER_NAME = "Django-Blockchained"
-PROJECT_NAME = "oneNeuron-pkg"
+PROJECT_NAME = "Perceptron package"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_NAME,
     author_email="vishalp7711@gmail.com",
     description="A small package for perceptron",
